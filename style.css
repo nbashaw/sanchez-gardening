@@ -1,0 +1,37 @@
+body {
+  font-family: helvetica;
+}
+.cover-photo {
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 40%;
+  background: url(OG_Knutson2_garden.jpg);
+  background-size: cover;
+  box-shadow: inset -10px 0 40px rgba(0,0,0,0.6);
+  background-position: -220px;
+}
+.page {
+  margin-left: 40%;
+  padding: 20px 60px;
+  width: 550px;
+}
+.contact {
+  margin-top: 40px;
+  background: rgba(151,214,128, 0.2);
+  border-radius: 3px;
+  box-shadow: inset 0px 1px 5px rgba(151,214,128, 0.8);
+  padding: 20px;
+}
+.contact h2 {
+  margin-top: 0;
+}
+.contact dd {
+  margin-bottom: 10px;
+}
+.contact dt {
+  font-weight: bold;
+  float: left;
+  width: 70px;
+}
