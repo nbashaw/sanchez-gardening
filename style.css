@@ -12,21 +12,20 @@ body {
   background-size: cover;
   box-shadow: inset -10px 0 40px rgba(0,0,0,0.6);
 }
-.logo {
-  margin: 20px;
-  height: 178px;
-  width: 159px;
-}
 .page {
   margin-left: 40%;
   padding: 20px 60px;
-  width: 550px;
+  width: 500px;
 }
 h1 {
   font-family: 'Marck Script', cursive;
-  font-size: 64px;
+  font-size: 50px;
   color: #74955C;
-  margin-bottom: 0;
+  background: url('sanchez-gardening-logo.png') no-repeat;
+  background-size: 10%;
+  background-position: 0px 15px;
+  padding: 10px 10px 10px 70px;
+  margin: 0;
 }
 .tagline {
   color: rgba(116,149,92, 0.5);
