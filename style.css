@@ -7,15 +7,19 @@ body {
   top: 0;
   bottom: 0;
   width: 40%;
-  background: url(OG_Knutson2_garden.jpg);
+  background: url(waterfall.jpg);
   background-size: cover;
   box-shadow: inset -10px 0 40px rgba(0,0,0,0.6);
-  background-position: -220px;
 }
 .page {
   margin-left: 40%;
   padding: 20px 60px;
   width: 550px;
+}
+.tagline {
+  color: rgba(151,214,128, 0.5);
+  font-style: italic;
+  font-weight: normal;
 }
 .contact {
   margin-top: 40px;
@@ -34,4 +38,8 @@ body {
   font-weight: bold;
   float: left;
   width: 70px;
+}
+
+a {
+  color: rgba(151,214,128, 1);
 }
