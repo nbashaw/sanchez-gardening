@@ -34,13 +34,18 @@ h1 {
   font-size: 22px;
 }
 .contact {
-  margin-top: 40px;
+  margin: 40px 0px;
   background: rgba(116,149,92, 0.2);
   border-radius: 5px;
   padding: 20px;
 }
 .contact h2 {
   margin-top: 0;
+}
+.contact h2 small {
+  font-weight: normal;
+  font-size: 14px;
+  font-style: italic;
 }
 .contact dd {
   margin-bottom: 10px;
@@ -68,4 +73,9 @@ p {
 
 a {
   color: rgba(116,149,92, 1);
+}
+
+#map-canvas {
+  height: 300px;
+  width: 550px;
 }
