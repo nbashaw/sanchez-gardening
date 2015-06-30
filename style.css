@@ -15,17 +15,15 @@ body {
 .page {
   margin-left: 40%;
   padding: 20px 60px;
-  width: 550px;
+  max-width: 550px;
 }
-h1 {
-  font-family: 'Marck Script', cursive;
-  font-size: 58px;
-  color: #74955C;
-  background: url('sanchez-gardening-logo.png') no-repeat;
-  background-size: 11%;
-  background-position: 0px 15px;
-  padding: 10px 10px 10px 75px;
-  margin: 0;
+.logo-container {
+  max-width: 400px;
+  margin-top: 40px;
+}
+.logo {
+  width: 100%;
+  margin-bottom: 20px;
 }
 .tagline {
   color: rgba(116,149,92, 0.5);
@@ -46,14 +44,18 @@ h1 {
   font-weight: normal;
   font-size: 14px;
   font-style: italic;
+  display: block;
+  margin-top: 6px;
 }
 .contact dd {
   margin-bottom: 10px;
+  font-size: 14px;
 }
 .contact dt {
   font-weight: bold;
   float: left;
-  width: 70px;
+  width: 60px;
+  font-size: 14px;
 }
 .services {
   padding: 0;
@@ -67,15 +69,22 @@ h1 {
   margin-bottom: 4px;
 }
 
-p {
-  font-size: 14px;
-}
-
 a {
-  color: rgba(116,149,92, 1);
+  color: #59813B;
 }
 
 #map-canvas {
   height: 300px;
-  width: 550px;
+  max-width: 550px;
+}
+
+/* Mobile */
+@media (max-width: 1060px) {
+  .cover-photo {
+    display: none;
+  }
+  .page {
+    margin: 0 auto;
+    padding: 20px;
+  }
 }
